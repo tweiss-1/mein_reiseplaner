@@ -11,7 +11,7 @@ st.write("Berechne, wie lange dein Budget in deiner Traumstadt reicht!")
 st.sidebar.header("Reise-Details")
 stadt = st.sidebar.selectbox("Wohin soll es gehen?", ["Berlin", "Paris", "London", "Tokio", "New York"])
 budget = st.sidebar.number_input("Gesamtbudget (€)", min_value=100, value=1000, step=50)
-stil = st.sidebar.radio("Reisestil", ["Backpacker (günstig)", "Standard", "Luxus"])
+stil = st.sidebar.radio("Reisestil", ["Backpacker", "Standard", "Luxus"])
 
 # --- DATEN (Durchschnittskosten pro Tag) ---
 # In einer echten App könnten diese Daten aus einer Datenbank kommen
